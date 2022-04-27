@@ -1,0 +1,15 @@
+.banner {
+background: url(https://media.cntraveller.com/photos/611be85fab1fb48d7ae603af/master/w_960%2Cc_limit/2brighton-airbnb-mar21-pr.jpg);
+height: 50vh;
+position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
