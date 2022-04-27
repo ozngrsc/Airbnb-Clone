@@ -13,3 +13,40 @@ position: relative;
     padding-bottom: 40px;
     width: 300px;
 }
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    border-color: gainsboro !important;
+}
+
+/* .banner__searchButton:hover {
+    background-color: #ff7779 !important;
+    color: white !important;
+}
+ */
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    border-color: transparent;
+}
+
+.banner__info > button:hover {
+    border-color: white;
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
+}

@@ -1,11 +1,12 @@
 import React from "react";
-import Banner from "./Banner";
 import "./Home.css";
+
+// ES7 snippets to do 'rfce'
 
 function Home() {
   return (
-    <div className="home">
-      <Banner />
+    <div classname="home">
+      <h1>Home component</h1>
     </div>
   );
 }
