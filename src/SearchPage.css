@@ -18,3 +18,7 @@
     border-color: gainsboro;
     color: black;
 }
+
+.searchPage__info > button:hover {
+    border-color: grey;
+}
