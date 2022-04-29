@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Banner.css";
 import { Button } from "@mui/material";
 import Search from "./Search";
+import { Link } from "react-router-dom";
 
 function Banner() {
   const [showSearch, setShowSearch] = useState(false);
@@ -23,7 +24,11 @@ function Banner() {
         <h5>
           Plan a different kind of getaway to uncover the hidden gems near you.
         </h5>
-        <Button variant="outlined">Explore Nearby</Button>
+        <Link className="nearby__link" to="/search">
+          <Button className="banner__nearbyButton" variant="outlined">
+            Explore Nearby
+          </Button>
+        </Link>
       </div>
     </div>
   );

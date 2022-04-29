@@ -33,17 +33,17 @@
     outline-width: 0;
 }
 
-.search > button {
-    position: absolute;
-    left: 0;
-    top: 490px;
+.searchAirbnb__button {
+    position: absolute !important;
+    left: 0 !important;
+    top: 490px !important;
     text-transform: inherit !important;
-    background-color: #ff7779;
-    color: white;
-    width: 579px;
+    background-color: #ff7779 !important;
+    color: white !important;
+    width: 579px !important;
 }
 
-.search > button:hover {
-    background-color: white;
-    color: #ff7779;
+.searchAirbnb__button:hover {
+    background-color: white !important;
+    color: #ff7779 !important;
 }

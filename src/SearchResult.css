@@ -1,6 +1,6 @@
 .searchResult {
     display: flex;
-    position: relative;
+    position: relative; 
     margin: 20px;
     padding: 20px;
     border-bottom: 1px solid lightgray;
@@ -45,4 +45,28 @@
     margin-top: 10px;
     font-size: 13px;
     color: gray;
+}
+
+.searchResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResult__star {
+    color: red;
+}
+
+.searchResult__stars {
+    display: flex;
+    align-items: center;
+}
+
+.searchResult__price > p {
+    text-align: right; 
+}
+
+.searchResult__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
 }

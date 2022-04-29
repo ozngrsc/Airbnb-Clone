@@ -6,10 +6,13 @@ import { DateRangePicker } from "react-date-range";
 import { useState } from "react";
 import PeopleIcon from "@mui/icons-material/People";
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 /* Date Picker Component */
 
 function Search() {
+  const navigate = useNavigate();
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
@@ -33,7 +36,9 @@ function Search() {
         <PeopleIcon />
       </h2>
       <input min={0} defaultValue={2} type="number" />
-      <Button>Search Airbnb</Button>
+      <Link to="/search">
+        <Button className="searchAirbnb__button">Search Airbnb</Button>
+      </Link>
     </div>
   );
 }

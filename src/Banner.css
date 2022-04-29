@@ -32,19 +32,23 @@ position: relative;
     color: white !important;
 }
  */
-.banner__info > button {
-    background-color: #ff7779;
-    color: white;
-    text-transform: inherit;
-    margin-top: 20px;
-    font-weight: 600;
-    border-color: transparent;
+.banner__nearbyButton {
+    background-color: #ff7779 !important;
+    color: white !important;
+    text-transform: inherit !important;
+    margin-top: 20px !important;
+    font-weight: 600 !important;
+    border-color: transparent !important;
 }
 
-.banner__info > button:hover {
-    border-color: white;
-    background-color: white;
-    color: #ff7779;
+.banner__nearbyButton:hover {
+    border-color: white !important;
+    background-color: white !important;
+    color: #ff7779 !important;
+}
+
+.nearby__link {
+    text-decoration: none;
 }
 
 .banner__info > h5 {
